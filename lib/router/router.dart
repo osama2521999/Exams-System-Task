@@ -1,6 +1,7 @@
 import 'package:exam_system/screen/Admin/ExamStudentGrade.dart';
 import 'package:exam_system/screen/Admin/createExame.dart';
 import 'package:exam_system/screen/Admin/mainScreen.dart';
+import 'package:exam_system/screen/Admin/settings.dart';
 import 'package:exam_system/screen/Admin/viewExam.dart';
 import 'package:exam_system/screen/Student/examScreen.dart';
 import 'package:flutter/material.dart';
@@ -26,6 +27,9 @@ class AppRouter{
 
       case RoutePaths.mainAdminScreen:
         return MaterialPageRoute(builder: (_) =>   const MainAdScreen());
+
+      case RoutePaths.settings:
+        return MaterialPageRoute(builder: (_) =>  const Settings());
 
       case RoutePaths.createExam:
         return MaterialPageRoute(builder: (_) =>   const CreateExam());

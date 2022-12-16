@@ -186,6 +186,7 @@ class CreateExamBloc extends Cubit<CreateExamStates>{
           QuickAlert.show(
               context: context,
               type: QuickAlertType.success,
+              barrierDismissible: false,
               title: "Success",
               text: "Exam Added Successfully",
               confirmBtnText: "ok",

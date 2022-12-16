@@ -33,7 +33,7 @@ class ExamStudentsGrade extends StatelessWidget {
           ListTile(
             leading: Image.asset(ImageAssets.exam),
             title: Text(
-                "Exams",
+                "Admin",
                 style: fixedHeadTextStyle(
                     font: fontSize-1,
                     weight: FontWeight.bold,family: "cairo"

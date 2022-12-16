@@ -34,7 +34,7 @@ class MainAdScreen extends StatelessWidget {
             ListTile(
               leading: Image.asset(ImageAssets.examAd),
               title: Text(
-                  "Exams",
+                  "Admin",
                   style: fixedHeadTextStyle(
                       font: fontSize-1,
                       weight: FontWeight.bold,family: "cairo"

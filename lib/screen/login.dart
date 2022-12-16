@@ -1,12 +1,11 @@
-
-import 'package:exam_system/constant/imageAssets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../bloCs/loginBloc/cubit.dart';
-import '../bloCs/loginBloc/states.dart';
+import '../bloCs/loginBloC/cubit.dart';
+import '../bloCs/loginBloC/states.dart';
 import '../constant/CustomTools.dart';
 import '../constant/constant.dart';
+import '../constant/imageAssets.dart';
 import '../router/RoutePaths.dart';
 
 class Login extends StatelessWidget {

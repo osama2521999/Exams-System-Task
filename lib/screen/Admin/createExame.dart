@@ -29,7 +29,7 @@ class CreateExam extends StatelessWidget {
           ListTile(
             leading: Image.asset(ImageAssets.examAd),
             title: Text(
-                "Exams",
+                "Admin",
                 style: fixedHeadTextStyle(
                     font: fontSize-1,
                     weight: FontWeight.bold,family: "cairo"
@@ -112,46 +112,7 @@ class CreateExam extends StatelessWidget {
                             ),
 
                             /// this for add Questions
-                            // Expanded(
-                            //   child: Center(
-                            //     child: SingleChildScrollView(
-                            //       child: Column(
-                            //         children: [
-                            //           QuestionForm(
-                            //             // controller: controller.h1,
-                            //             margin: const EdgeInsets.all(10),
-                            //             fontSize: 14,
-                            //             fieldHeight: 300,
-                            //             fieldWidth: (size.width)-10-20,
-                            //             fieldHint: 'sasd',
-                            //             formColor: Colors.white,
-                            //             questionObject: controller.question,
-                            //
-                            //             questionWidth: constFieldWidth(context,.5),
-                            //             headerWidth: constFieldWidth(context,.5),
-                            //             gradeWidth: constFieldWidth(context,.12),
-                            //
-                            //
-                            //           ),
-                            //           QuestionForm(
-                            //             // controller: controller.examTitle,
-                            //             margin: const EdgeInsets.all(10),
-                            //             fontSize: 14,
-                            //             fieldHeight: 300,
-                            //             fieldWidth: (size.width)-10-20,
-                            //             fieldHint: 'sasd',
-                            //             formColor: Colors.white,
-                            //             questionObject: controller.question,
-                            //
-                            //             questionWidth: constFieldWidth(context,.5),
-                            //             headerWidth: constFieldWidth(context,.5),
-                            //             gradeWidth: constFieldWidth(context,.12),
-                            //           ),
-                            //         ],
-                            //       ),
-                            //     ),
-                            //   ),
-                            // ),
+
                             Expanded(
                               child: Center(
                                 child: controller.addQues(),

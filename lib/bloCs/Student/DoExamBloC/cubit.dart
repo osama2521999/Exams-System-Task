@@ -250,6 +250,7 @@ class DoExamBloc extends Cubit<DoExamStates>{
       QuickAlert.show(
           context: context,
           type: QuickAlertType.info,
+          barrierDismissible: false,
           title: "Unfortunately",
           text: "Exam Time was Ended",
           confirmBtnText: "ok",
